@@ -1,0 +1,353 @@
+html, body {
+    height: 100%;
+    /*overflow:hidden;*/
+    margin: 0 auto;
+}
+
+
+.career_page_stack1
+{
+    position: relative;
+    width: 1200px;
+    font-family: PlantagenetCherokee;
+    margin: 150px 0 0 380px;
+}
+.career_page_stack1 .title
+{
+    position: absolute;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+
+
+
+.career_page_stack2
+{
+    margin-left: 150px;
+    margin-top: 700px;
+    float: left;
+    position: relative;
+    font-family: PlantagenetCherokee;
+}
+.career_page_stack2 > .program > img
+{
+    width: 900px;
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0px 0px 10px #888888;
+}
+.career_page_stack2 > .program > .right
+{
+    width:500px;
+    position: absolute;
+    margin: -15px 0 0 1050px;
+}
+.career_page_stack2 > .program > .right > .title
+{
+    margin-left: 100px;
+    font-family: AppleMyungjo;
+    font-size: 45px;
+}
+.career_page_stack2 > .program > .right >.Line
+{
+    width:0px;
+    height: 65px;
+    margin-top: 30px;
+    margin-left: 225px;
+}
+.career_page_stack2 > .program > .right > .subtitle
+{
+    margin-top: 30px;
+    color: #5a5a5a;
+    font-family: PlantagenetCherokee;
+    font-size: 31px;
+}
+
+
+
+
+
+
+.career_page_stack3
+{
+    position: relative;
+    margin-left: 150px;
+    margin-top: 900px;
+    float: left;
+    font-family: PlantagenetCherokee;
+}
+.career_page_stack3 > .artist > img
+{
+    width: 900px;
+    position: absolute;
+    z-index: -1;
+    margin: 0px 0 0 680px;
+    box-shadow: 0px 0px 10px #888888;
+}
+.career_page_stack3 > .artist > .right
+{
+    width:500px;
+    position: absolute;
+    margin: -15px 0 0 0px;
+}
+.career_page_stack3 > .artist > .right > .title
+{
+    margin-left: 150px;
+    font-family: AppleMyungjo;
+    font-size: 45px;
+}
+.career_page_stack3 > .artist > .right >.Line
+{
+    width:0px;
+    height: 65px;
+    margin-top: 30px;
+    margin-left: 210px;
+}
+.career_page_stack3 > .artist > .right > .subtitle
+{
+    margin-top: 30px;
+    color: #5a5a5a;
+    font-family: PlantagenetCherokee;
+    font-size: 31px;
+}
+
+
+
+
+
+
+.career_page_stack4
+{
+    margin-left: 150px;
+    margin-top: 900px;
+    float: left;
+    position: relative;
+    font-family: PlantagenetCherokee;
+}
+.career_page_stack4 > .marketer > img
+{
+    width: 900px;
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0px 0px 10px #888888;
+}
+.career_page_stack4 > .marketer > .right
+{
+    width:500px;
+    position: absolute;
+    margin: -15px 0 0 1050px;
+}
+.career_page_stack4 > .marketer > .right > .title
+{
+    margin-left: 100px;
+    font-family: AppleMyungjo;
+    font-size: 45px;
+}
+.career_page_stack4 > .marketer > .right >.Line
+{
+    width:0px;
+    height: 65px;
+    margin-top: 30px;
+    margin-left: 185px;
+}
+.career_page_stack4 > .marketer > .right > .subtitle
+{
+    margin-top: 30px;
+    color: #5a5a5a;
+    font-family: PlantagenetCherokee;
+    font-size: 31px;
+}
+
+
+
+
+
+.career_page_stack5
+{
+    margin-top: 900px;
+    width: 1900px;
+    height:1000px;
+    background-color: #ff5079;
+    position: relative;
+    font-family: PlantagenetCherokee;
+}
+.career_page_stack5 >.content
+{
+    padding-top: 100px;
+    padding-left: 230px;
+}
+.career_page_stack5 >.content >.title
+{
+    width: 600px;
+    letter-spacing: 1.3px;
+    color: #ffffff;
+    font-family: PlantagenetCherokee;
+    font-size: 60px;
+}
+.career_page_stack5 >.content > .telnum
+{
+    margin-top: 80px;
+    position: relative;
+    float: left;
+}
+.career_page_stack5 >.content > .telnum > .title
+{
+    font-family: DINAlternate;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #ffffff;
+}
+.career_page_stack5 >.content > .telnum >.background
+{
+    margin-top: 15px;
+    width: 500px;
+    height: 85px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.career_page_stack5 >.content > .telnum >.number
+{
+    width: 500px;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    font-family: DINAlternate;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #ffffff;
+}
+.career_page_stack5 >.content > .email
+{
+    margin-top: 80px;
+    margin-left: 300px;
+    position: relative;
+    float: left;
+}
+.career_page_stack5 >.content > .email > .title
+{
+    font-family: DINAlternate;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #ffffff;
+}
+.career_page_stack5 >.content > .email >.background
+{
+    margin-top: 15px;
+    width: 540px;
+    height: 85px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.career_page_stack5 >.content > .email >.address {
+    width: 500px;
+    position: absolute;
+    padding-left: 30px;
+    bottom: 20px;
+    text-align: center;
+    font-family: DINAlternate;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #ffffff;
+}
+.career_page_stack5 >.content > .faxnum
+{
+    margin-top: 80px;
+    position: relative;
+}
+.career_page_stack5 >.content > .faxnum > .title
+{
+    font-family: DINAlternate;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #ffffff;
+}
+.career_page_stack5 >.content > .faxnum >.background
+{
+    margin-top: 15px;
+    width: 500px;
+    height: 85px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.career_page_stack5 >.content > .faxnum >.number
+{
+    position: absolute;
+    width: 500px;
+    bottom: 20px;
+    text-align: center;
+    font-family: DINAlternate;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #ffffff;
+}
+
+.career_page_stack5 >.content >.ps
+{
+    position: absolute;
+    bottom:180px;
+    margin-left: 800px;
+    width: 550px;
+    font-family: PlantagenetCherokee;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+.career_page_stack6 {
+    position: relative;
+    font-family: "Plantagenet Cherokee";
+    height: 100%;
+
+    margin-top: 180px;
+}
+
+.career_page_stack6 > img {
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+}
+
+.career_page_stack6 > .content_alpha{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index:0;
+    bottom:0px;
+    text-align:center;
+    background: rgba(0,0,0,0.3);
+    color: #ffffff;
+}
+
+.career_page_stack6 > .content_alpha > .title {
+    font-size: 100px;
+    height: 200px;
+    margin: 300px 0px 0px 0px;
+}
+
+.career_page_stack6 > .content_alpha > .subtitle {
+    line-height: 50%;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    letter-spacing: 10px;
+}

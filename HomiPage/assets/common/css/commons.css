@@ -1,0 +1,44 @@
+
+.header {
+
+}
+
+.header > ul {
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    background-color: #ffffff;
+}
+
+.header li {
+    float: right;
+}
+
+.header li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 30px 40px;
+    text-decoration: none;
+}
+
+.header .title {
+    float: left;
+    text-align: center;
+    font-family: Optien;
+    font-size: 5vh;
+    margin: -5px 0px 0px -5px;
+}
+
+/* Change the link color to #111 (black) on hover */
+.header li a:hover {
+}
